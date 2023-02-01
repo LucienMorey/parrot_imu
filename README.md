@@ -26,6 +26,12 @@ One potential mechanism for delivering IMU data to the robot comms network. This
 - [ ] Pick a can trasniever that can interface with the teensy
 - [ ] add optional termination points
 
+### Ethernet Jack
+
+Intended to be the primary mechanism for delivering imu data to the robot comms network. This is known to beable to interface directly with the ros network through microros on udp transports.
+
+- [x] Find an approppriate RJ45 magjack connector - Currently the [SI-60062-F](https://www.digikey.com.au/en/products/detail/bel-fuse-inc/SI-60062-F/1033372)
+- [ ] Wire the connector to the teensy. note to follow the schematic outlined on thier magjack page found [here](https://www.pjrc.com/store/ethernet_kit.html). This should be as simple as just adding a capacitor and joining the pins but double check the smc design to be sure.
 
 ### Teensy 4.1
 
