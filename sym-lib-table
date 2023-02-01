@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name "teensy_symbol")(type "Legacy")(uri "${KIPRJMOD}/libs/symbol/teensy_library/teensy.lib")(options "")(descr ""))
+  (lib (name "SI-60062-F")(type "KiCad")(uri "${KIPRJMOD}/libs/symbol/magjack_library/SI-60062-F.kicad_sym")(options "")(descr ""))
 )
