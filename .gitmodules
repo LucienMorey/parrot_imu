@@ -1,0 +1,6 @@
+[submodule "libs/symbol/teensy_library"]
+	path = libs/symbol/teensy_library
+	url = git@github.com:XenGi/teensy_library.git
+[submodule "libs/footprint/teensy.pretty"]
+	path = libs/footprint/teensy.pretty
+	url = git@github.com:XenGi/teensy.pretty.git
