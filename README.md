@@ -10,8 +10,10 @@ This design will host an IMU board for the Parody tripedal robotic platform. It 
 
 Take a 24 V input and reduce it to supplies for powering the associated subsystems.
 
-- [ ] 5v supply - tentatitvely [BD00EA5WFP-E2](https://www.digikey.com.au/en/products/detail/rohm-semiconductor/BD00EA5WFP-E2/15815128)
-- [ ] 3.3v supply - tentatitvely [BD00EA5WFP-E2](https://www.digikey.com.au/en/products/detail/rohm-semiconductor/BD00EA5WFP-E2/15815128)
+- [x] 5v supply - tentatitvely [BD00EA5WFP-E2](https://www.digikey.com.au/en/products/detail/rohm-semiconductor/BD00EA5WFP-E2/15815128)
+- [x] 3.3v supply - tentatitvely [BD00EA5WFP-E2](https://www.digikey.com.au/en/products/detail/rohm-semiconductor/BD00EA5WFP-E2/15815128)
+- [ ] Calculate resistors and capacitors for 3.3v supply
+- [ ] calculate resistors and capacitors for 5v supply
 - [ ] debugging LEDS to indicate presense of power
   - [ ] at input line
   - [ ] after 5v supply
