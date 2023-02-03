@@ -29,6 +29,7 @@ A. They both do the same thing with regard to switching direct current voltages.
 One potential mechanism for delivering IMU data to the robot comms network. This is the back up option because it cannot interface directly to the ros network. It does not require FD functionality for higher bit rates but this option will be made available if a component can be sourced.
 
 - [x] Pick a can trasniever that can interface with the teensy - picked the [TJA1441AT/0Z](https://www.digikey.com.au/en/products/detail/nxp-usa-inc/TJA1441AT-0Z/13691175). This shouldnt be an issue because it provides both 5v VCC and a seperate VIO input that I can specify the 3.3v logic level required for the teensy
+- [x] create footprint and symbol
 - [ ] add optional termination points
 - [ ] Add a proper screw terminal or similar mechanism to make adding to the can bus easy
 - [ ] Add proper Silk screen markers to indicate CAN-H/L so things are easy
@@ -44,7 +45,7 @@ Intended to be the primary mechanism for delivering imu data to the robot comms 
 
 Primary microcontroller for interfacing with the IMU.
 
-- [ ] obtain premade footprint
+- [x] obtain premade footprint
 - [ ] remember different pin styles for ethernet and general gpio
 - [ ] spi connection avoiding pin 13 so that ethernet can be used
 
