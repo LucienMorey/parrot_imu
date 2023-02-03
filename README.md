@@ -12,6 +12,7 @@ Take a 24 V input and reduce it to supplies for powering the associated subsyste
 
 - [x] 5v supply - tentatitvely [BD00EA5WFP-E2](https://www.digikey.com.au/en/products/detail/rohm-semiconductor/BD00EA5WFP-E2/15815128)
 - [x] 3.3v supply - tentatitvely [BD00EA5WFP-E2](https://www.digikey.com.au/en/products/detail/rohm-semiconductor/BD00EA5WFP-E2/15815128)
+- [ ] add terminal to supply power input. probably one of thosegreen terminals that can fit a ferule or a wago terminal
 - [ ] Calculate resistors and capacitors for 3.3v supply
 - [ ] calculate resistors and capacitors for 5v supply
 - [ ] debugging LEDS to indicate presense of power
@@ -51,4 +52,7 @@ Primary microcontroller for interfacing with the IMU.
 
 ### IMU
 
+- [x] create symbol
+- [x] create footprint
+- [ ] connect to SPI2 or 3 to avoid collision with ethernet
 - [ ] Place footprint of breakout board
