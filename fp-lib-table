@@ -2,4 +2,5 @@
   (lib (name "teensy_footprint")(type "KiCad")(uri "${KIPRJMOD}/libs/footprint/teensy.pretty")(options "")(descr ""))
   (lib (name "magjack")(type "KiCad")(uri "${KIPRJMOD}/libs/footprint/magjack.pretty")(options "")(descr ""))
   (lib (name "parrot_imu")(type "KiCad")(uri "${KIPRJMOD}/libs/footprint/parrot_imu.pretty")(options "")(descr ""))
+  (lib (name "connector_parrot")(type "KiCad")(uri "${KIPRJMOD}/libs/footprint/connector.pretty")(options "")(descr ""))
 )
