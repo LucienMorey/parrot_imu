@@ -18,7 +18,7 @@ Take a 24 V input and reduce it to supplies for powering the associated subsyste
   - [x] at input line
   - [x] after 5v supply
   - [x] after 3.3V supply
-- [ ] calculate resitors for power leds
+- [x] calculate resitors for power leds
 
 Q. what is an LDO and will it suffice or is a proper dc/dc converter required?
 
@@ -40,6 +40,7 @@ Intended to be the primary mechanism for delivering imu data to the robot comms 
 
 - [x] Find an approppriate RJ45 magjack connector - Currently the [SI-60062-F](https://www.digikey.com.au/en/products/detail/bel-fuse-inc/SI-60062-F/1033372)
 - [x] Wire the connector to the teensy. note to follow the schematic outlined on thier magjack page found [here](https://www.pjrc.com/store/ethernet_kit.html). This should be as simple as just adding a capacitor and joining the pins but double check the smc design to be sure.
+- [ ] Find link to small pins for ethernet
 
 ### Teensy 4.1
 
@@ -55,3 +56,5 @@ Primary microcontroller for interfacing with the IMU.
 - [x] create footprint
 - [x] connect to SPI2 or 3 to avoid collision with ethernet
 - [ ] Place footprint of breakout board
+- [ ] double check if this should be i2c instead of spi
+- [ ] check if interrupt pin or other functionality is going to be helpful
