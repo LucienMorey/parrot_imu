@@ -3,4 +3,5 @@
   (lib (name "SI-60062-F")(type "KiCad")(uri "${KIPRJMOD}/libs/symbol/magjack_library/SI-60062-F.kicad_sym")(options "")(descr ""))
   (lib (name "parrot_imu")(type "KiCad")(uri "${KIPRJMOD}/libs/symbol/parrot_imu_library/parrot_imu.kicad_sym")(options "")(descr ""))
   (lib (name "connector_parrot")(type "KiCad")(uri "${KIPRJMOD}/libs/symbol/connector_library/TB005-762-02BE.kicad_sym")(options "")(descr ""))
+  (lib (name "can_tvs")(type "Legacy")(uri "${KIPRJMOD}/libs/symbol/can_tvs_library/can_tvs.lib")(options "")(descr ""))
 )

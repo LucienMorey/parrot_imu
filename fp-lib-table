@@ -3,4 +3,5 @@
   (lib (name "magjack")(type "KiCad")(uri "${KIPRJMOD}/libs/footprint/magjack.pretty")(options "")(descr ""))
   (lib (name "parrot_imu")(type "KiCad")(uri "${KIPRJMOD}/libs/footprint/parrot_imu.pretty")(options "")(descr ""))
   (lib (name "connector_parrot")(type "KiCad")(uri "${KIPRJMOD}/libs/footprint/connector.pretty")(options "")(descr ""))
+  (lib (name "can_tvs")(type "KiCad")(uri "${KIPRJMOD}/libs/footprint/can_tvs.pretty")(options "")(descr ""))
 )
