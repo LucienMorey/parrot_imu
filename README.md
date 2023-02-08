@@ -12,13 +12,13 @@ Take a 24 V input and reduce it to supplies for powering the associated subsyste
 
 - [x] 5v supply - tentatitvely [VR10S05](https://www.digikey.com.au/en/products/detail/xp-power/VR10S05/13147713)
 - [x] 3.3v supply - tentatitvely [TR05S3V3](https://www.digikey.com.au/en/products/detail/xp-power/TR05S3V3/4488636)
-- [x] add terminal to supply power input. probably one of thosegreen terminals that can fit a ferule or a wago terminal
-- [ ] Is it worth bothering with reverse polarity protection? Just a shottkey diode?
-- [ ] debugging LEDS to indicate presense of power
-  - [ ] at input line
-  - [ ] after 5v supply
-  - [ ] after 3.3V supply
-- [ ] Test points at all voltage levels (3.3, 5 and 24)
+- [x] add terminal to supply power input. probably one of thosegreen terminals that can fit a ferule or a wago terminal [panel mount xt30](https://www.ebay.com.au/itm/393171351901)
+- [x] Is it worth bothering with reverse polarity protection? Just a shottkey diode? Nope. just added a gendered connector to prevent this.
+- [x] debugging LEDS to indicate presense of power
+  - [x] at input line
+  - [x] after 5v supply
+  - [x] after 3.3V supply
+- [ ] calculate resitors for power leds
 
 Q. what is an LDO and will it suffice or is a proper dc/dc converter required?
 
@@ -31,7 +31,7 @@ One potential mechanism for delivering IMU data to the robot comms network. This
 - [x] Pick a can trasniever that can interface with the teensy - picked the [TJA1441AT/0Z](https://www.digikey.com.au/en/products/detail/nxp-usa-inc/TJA1441AT-0Z/13691175). This shouldnt be an issue because it provides both 5v VCC and a seperate VIO input that I can specify the 3.3v logic level required for the teensy
 - [x] create footprint and symbol
 - [x] add optional termination points
-- [x] Add a proper screw terminal or similar mechanism to make adding to the can bus easy
+- [x] Add a proper screw terminal or similar mechanism to make adding to the can bus easy [scrw terminal here](https://www.digikey.com.au/en/products/detail/cui-devices/TB005-762-02BE/10064113)
 - [ ] Add proper Silk screen markers to indicate CAN-H/L so things are easy
 
 ### Ethernet Jack
