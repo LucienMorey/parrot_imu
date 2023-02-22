@@ -1676,7 +1676,6 @@
     )
   )
 
-
   (junction (at 116.84 156.21) (diameter 0) (color 0 0 0 0)
     (uuid 0b3a0c7a-7e90-452e-a3a5-ea9355ff01d2)
   )
@@ -2448,7 +2447,7 @@
     (property "Value" "ESDCAN24-2BLY" (id 1) (at 331.47 48.26 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "SOT_24-2BLY_STM" (id 2) (at 331.47 49.784 0)
+    (property "Footprint" "parrot_imu:ESDCAN24-2BLY" (id 2) (at 331.47 49.784 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (id 3) (at 311.15 53.34 0)
@@ -3556,7 +3555,7 @@
       (reference "U5") (unit 1) (value "TJA1441AT/0Z") (footprint "Package_SO:SO-8_3.9x4.9mm_P1.27mm")
     )
     (path "/2fe48c89-8136-4a74-adea-b9d7e84b82b1"
-      (reference "U6") (unit 1) (value "ESDCAN24-2BLY") (footprint "SOT_24-2BLY_STM")
+      (reference "U6") (unit 1) (value "ESDCAN24-2BLY") (footprint "parrot_imu:ESDCAN24-2BLY")
     )
   )
 )
