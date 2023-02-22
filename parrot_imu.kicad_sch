@@ -2333,7 +2333,7 @@
   (symbol (lib_id "SI-60062-F:SI-60062-F") (at 313.69 163.83 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 0d20f8ee-a6f7-49a8-87a9-065aa3be88a2)
-    (property "Reference" "J?" (id 0) (at 322.58 162.5599 0)
+    (property "Reference" "J2" (id 0) (at 322.58 162.5599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SI-60062-F" (id 1) (at 322.58 165.0999 0)
@@ -3624,11 +3624,11 @@
     (path "/35ca6dd5-0fe6-4149-b1eb-072213388a9c"
       (reference "J1") (unit 1) (value "Conn_01x02_Male") (footprint "Connector_AMASS:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal")
     )
+    (path "/0d20f8ee-a6f7-49a8-87a9-065aa3be88a2"
+      (reference "J2") (unit 1) (value "SI-60062-F") (footprint "magjack:BEL_SI-60062-F")
+    )
     (path "/3048e5f9-287c-4759-b62e-bdb281c9ffef"
       (reference "J3") (unit 1) (value "TB005-762-02BE") (footprint "connector_parrot:CUI_TB005-762-02BE")
-    )
-    (path "/0d20f8ee-a6f7-49a8-87a9-065aa3be88a2"
-      (reference "J?") (unit 1) (value "SI-60062-F") (footprint "magjack:BEL_SI-60062-F")
     )
     (path "/b80ac4e5-0546-4f4a-ab29-51df51ca7732"
       (reference "R1") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
