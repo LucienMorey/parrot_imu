@@ -2604,7 +2604,7 @@
     (property "Value" "Conn_01x02_Male" (id 1) (at 33.02 129.5399 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Connector_AMASS:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal" (id 2) (at 34.29 129.54 0)
+    (property "Footprint" "Connector_AMASS:AMASS_XT30PW-F_1x02_P2.50mm_Horizontal" (id 2) (at 34.29 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 34.29 129.54 0)
@@ -3622,7 +3622,7 @@
       (reference "H4") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3")
     )
     (path "/35ca6dd5-0fe6-4149-b1eb-072213388a9c"
-      (reference "J1") (unit 1) (value "Conn_01x02_Male") (footprint "Connector_AMASS:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal")
+      (reference "J1") (unit 1) (value "Conn_01x02_Male") (footprint "Connector_AMASS:AMASS_XT30PW-F_1x02_P2.50mm_Horizontal")
     )
     (path "/0d20f8ee-a6f7-49a8-87a9-065aa3be88a2"
       (reference "J2") (unit 1) (value "SI-60062-F") (footprint "magjack:BEL_SI-60062-F")
