@@ -2,15 +2,15 @@
   (layer "F.Cu")
   (tedit 0)
   (attr through_hole)
-  (fp_text reference "REF**" (at 0 0) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 0 -3) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 3b66f9d4-cb47-4503-a912-11cb2a5944ad)
   )
-  (fp_text value "SOT_24-2BLY_STM" (at 0 0) (layer "F.SilkS")
+  (fp_text value "SOT_24-2BLY_STM" (at 0 0) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 9eb45cd4-0008-49b2-8707-c6e9ad359905)
   )
-  (fp_text user "*" (at 0 0) (layer "F.SilkS")
+  (fp_text user "*" (at 0 0) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 4c47dbe3-02cc-4ec3-8bab-a045df9ef63b)
   )
