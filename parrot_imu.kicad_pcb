@@ -464,6 +464,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "${KIPRJMOD}/libs/XT30PW-M.stp"
+      (offset (xyz -2.5 4 2.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 180))
+    )
   )
 
   (footprint "LED_SMD:LED_0603_1608Metric" (layer "F.Cu")
