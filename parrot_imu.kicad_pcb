@@ -389,6 +389,11 @@
       (net 78 "unconnected-(J2-PadS1)") (pinfunction "SHIELD") (pintype "passive+no_connect") (tstamp ce1e41b7-4ed6-495f-8fa6-cf8f5011d0a1))
     (pad "S2" thru_hole circle locked (at 7.745 -3.05 90) (size 2.475 2.475) (drill 1.65) (layers *.Cu *.Mask)
       (net 78 "unconnected-(J2-PadS1)") (pinfunction "SHIELD") (pintype "passive+no_connect") (tstamp b075a108-18a6-4f43-aacb-f4ed63892ee9))
+    (model "${KIPRJMOD}/libs/SI-60062-F.stp"
+      (offset (xyz 0 -11 7))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Connector_AMASS:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal" (layer "F.Cu")
@@ -942,7 +947,7 @@
     (property "Sheetname" "")
     (path "/3048e5f9-287c-4759-b62e-bdb281c9ffef")
     (attr through_hole)
-    (fp_text reference "J3" (at 15.25 -1.014 90) (layer "F.SilkS")
+    (fp_text reference "J3" (at 15.25 -1.014 90) (layer "F.SilkS") hide
       (effects (font (size 1.4 1.4) (thickness 0.15)))
       (tstamp 6e9e968c-3424-4031-a0d7-e3d076a6e998)
     )
